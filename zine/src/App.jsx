@@ -125,7 +125,7 @@ function Sprinkles({ count = 50, containerWidth = 600, containerHeight = 400 }) 
       {sprinkles.map((s, idx) => (
         <img
           key={idx}
-          src="../public/money.png"
+          src="/money.png"
           alt="sprinkle"
           className="sprinkle"
           style={{
