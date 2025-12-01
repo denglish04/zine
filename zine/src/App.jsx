@@ -2,13 +2,13 @@ import { useState, useEffect, useRef } from 'react';
 import './App.css';
 
 // Sounds
-const clickSound = new Audio('../public/sounds/click.mp3');
-const flipSound = new Audio('../public/sounds/flip.mp3');
-const victorySound = new Audio('../public/sounds/victory.mp3');
-const failSound = new Audio('../public/sounds/fail.mp3');
-const interfaceSound ='../public/sounds/interface.mp3'; // just a path, we’ll create a new Audio each time
-const lockSound = '../public/sounds/lock.mp3';
-const clockSound = '../public/sounds/clock.mp3';
+const clickSound = new Audio('/sounds/click.mp3');
+const flipSound = new Audio('/sounds/flip.mp3');
+const victorySound = new Audio('/sounds/victory.mp3');
+const failSound = new Audio('/sounds/fail.mp3');
+const interfaceSound ='/sounds/interface.mp3'; // just a path, we’ll create a new Audio each time
+const lockSound = '/sounds/lock.mp3';
+const clockSound = 'public/sounds/clock.mp3';
 
 
 function playInterface(){
